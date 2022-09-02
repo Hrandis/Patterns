@@ -18,7 +18,7 @@ public class ChangeDateTest {
 
     @BeforeEach
     public void Preps() {
-        user = DataGenerator.User.generateUser("ru");
+        user = DataGenerator.User.generateUser("ru", 7, 8);
         open("http://localhost:9999");
     }
 
